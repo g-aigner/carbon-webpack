@@ -1,0 +1,8 @@
+node_modules
+build
+
+# Editors and IDEs
+*sublime*
+*.vscode*
+*.idea/
+*.iml
