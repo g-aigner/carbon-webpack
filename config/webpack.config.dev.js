@@ -137,7 +137,7 @@ module.exports = {
     // Configure sass-loader to work with parcelify-loader
     sassLoader: {
         includePaths: [
-            path.resolve("./src/style"), // local overrides
+            path.resolve("./src/style-config"), // local overrides
             path.resolve("./node_modules/carbon/lib/style-config") // original carbon style
         ]
     },
