@@ -64,7 +64,7 @@ module: {
 ```
 **Note**: `sass-loader` needs [css-loader](https://github.com/webpack/css-loader)
 and [style-loader](https://github.com/webpack/style-loader) to correctly chain 
-the output style (that is not carbon specific).
+the output style (this is not carbon specific).
 
 Configure `sass-loader` for carbon-specific overwrite dependencies:
 
