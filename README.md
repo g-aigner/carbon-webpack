@@ -98,7 +98,8 @@ module: {
 }       
 ```
 **Note**: this assumes that the `parcelify-loader` is in the same directory as
-your `webpack.config.js`.
+your `webpack.config.js`, it is not available through `npm` so you need to 
+include its source file with your project.
 
 Make sure you include the carbon source directory in `include`; otherwise, 
 native styles for carbon components will not be included.
